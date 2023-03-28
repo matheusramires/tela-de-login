@@ -1,0 +1,124 @@
+/*Geral*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica;
+    color:#323232;
+    border: none;
+}
+
+body{
+    background-image: url('../img/wallpaper.jpg');
+    background-size: cover; /*preenche o maximo da tela com a imagem*/
+}
+
+textarea:focus, input:focus{
+    outline: none;
+}
+
+a, label{
+    font-size: .8rem;
+}
+
+a:hover{
+    color: #08558b;
+}
+
+/*Container Login*/
+
+#login-container{
+    background-color: #FFF; /*cor de fundo da div*/
+    width: 400px;
+    margin-left: auto; /*centraliza a div*/
+    margin-right: auto; /*centraliza a div*/
+    padding: 20px 30px; /*margem interna*/
+    margin-top:10vh;
+    border-radius: 10px;
+    text-align: center; /*centraliza o texto dentro da div*/
+}
+
+form{
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+label, input{
+    display: block; /*deixa as label e os inputs em coluna*/
+    width: 100%;
+    text-align: left;
+}
+
+label{
+    font-weight: bold; /*texto em negrito*/
+}
+
+input{
+    border-bottom: 2px solid #323232; /*estiliza as bordas inferiores, as superiores e as laterais ficam sem estilização */
+    padding: 10px;
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+input:focus{
+    border-bottom: 2px solid #08558B;
+}
+
+#forgot-pass{
+    text-align: right;
+    display: block;
+}
+
+input[type="submit"]{
+    text-align: center; /*cetraliza o texto*/
+    text-transform: uppercase; /*deixa maiusculas as letras dentro do input*/
+    font-weight: bold;
+    border: none;
+    height: 40px;
+    border-radius: 20px;
+    margin-top: 30px;
+    color:#FFF;
+    background-color: #08558B;
+    cursor: pointer; /*muda o cursor do mouse*/
+}
+
+input[type="submit"]:hover{
+    background-color: #1B223C;
+    transition: .5s;
+}
+
+
+/*redes sociais*/
+
+#social-container, #social-container p{
+    margin-bottom: 20px;
+}
+
+#social-container i {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    line-height: 40px; /*texto vai pro centro*/
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.fa-facebook-f{
+    background-color: #3b5998; /*cor do facebook*/
+    color: #FFF;
+}
+
+.fa-linkedin{
+    background-color: #0077b5;
+    color: #FFF;
+
+}
+
+#register-container p{
+    margin-top: 10px;
+}
+
+#register-container{
+    margin-bottom: 10px;
+}
